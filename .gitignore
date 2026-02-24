@@ -1,0 +1,10 @@
+bin/
+obj/
+
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
