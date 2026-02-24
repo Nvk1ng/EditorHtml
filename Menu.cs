@@ -16,12 +16,12 @@ namespace EditorHtml
         public static void DrawScreen()
         {
 
-            ImprimirMais();
+            BarraSuperior();
             BarraLateral();
-            ImprimirMais();
+            BarraSuperior();
         }
 
-        static void ImprimirMais()
+        static void BarraSuperior()
         {
             Console.Write("+");
             for(int i = 0; i <= 30; i++)
